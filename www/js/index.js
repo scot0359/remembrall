@@ -114,7 +114,7 @@ let app = {
       
       
       app.notificationArr.push({
-        element: `<h2>${label}<br>${formattedDate}<br>${time}<button class="remove-btn" data-id="${id}">Remove</button></h2>`,
+        element: `<h2>${label}<br>${formattedDate}<br>${time}<button class="remove-btn" data-id="${id}">Delete</button></h2>`,
         id: id,
         date: date
       });
